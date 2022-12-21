@@ -26,10 +26,6 @@ while True:
 	try:
 		file_name = file_info()
 
-		#print('[ERROR] sending file info error')
-
-
-
 		file = open(file_name,'rb')
 		data = file.read(2048)
 
